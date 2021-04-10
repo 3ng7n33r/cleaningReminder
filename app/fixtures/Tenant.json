@@ -1,0 +1,65 @@
+[
+{
+    "model": "app.tenant",
+    "pk": 1,
+    "fields": {
+        "first_name": "Narayan",
+        "room_number": "",
+        "high_tenant": false
+    }
+},
+{
+    "model": "app.tenant",
+    "pk": 2,
+    "fields": {
+        "first_name": "Akash",
+        "room_number": "",
+        "high_tenant": false
+    }
+},
+{
+    "model": "app.tenant",
+    "pk": 3,
+    "fields": {
+        "first_name": "Russ",
+        "room_number": "",
+        "high_tenant": false
+    }
+},
+{
+    "model": "app.tenant",
+    "pk": 4,
+    "fields": {
+        "first_name": "Deepak",
+        "room_number": "",
+        "high_tenant": false
+    }
+},
+{
+    "model": "app.tenant",
+    "pk": 5,
+    "fields": {
+        "first_name": "Daniela",
+        "room_number": "",
+        "high_tenant": false
+    }
+},
+{
+    "model": "app.tenant",
+    "pk": 6,
+    "fields": {
+        "first_name": "Andreas",
+        "room_number": "",
+        "high_tenant": true
+    }
+},
+{
+    "model": "app.tenant",
+    "pk": 7,
+    "fields": {
+        "first_name": "Philipp",
+        "room_number": "",
+        "high_tenant": true
+    }
+}
+]

@@ -1,0 +1,47 @@
+[
+{
+    "model": "app.task",
+    "pk": 1,
+    "fields": {
+        "task_name": "Ground Floor",
+        "people_needed": "3",
+        "for_ground_tenant": true
+    }
+},
+{
+    "model": "app.task",
+    "pk": 2,
+    "fields": {
+        "task_name": "Bathroom 1st floor",
+        "people_needed": "1",
+        "for_ground_tenant": true
+    }
+},
+{
+    "model": "app.task",
+    "pk": 3,
+    "fields": {
+        "task_name": "staircases",
+        "people_needed": "1",
+        "for_ground_tenant": true
+    }
+},
+{
+    "model": "app.task",
+    "pk": 4,
+    "fields": {
+        "task_name": "3rd Floor",
+        "people_needed": "2",
+        "for_ground_tenant": false
+    }
+},
+{
+    "model": "app.task",
+    "pk": 5,
+    "fields": {
+        "task_name": "Toilet Paper",
+        "people_needed": "1",
+        "for_ground_tenant": true
+    }
+}
+]
