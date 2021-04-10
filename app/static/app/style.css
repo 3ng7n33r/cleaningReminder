@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    word-break: break-word;
+}
+
+:root {
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1.1rem;
+
+    --color-primary-0: #93D855;	/* Main Primary color */
+    --color-primary-1: #CDF3AB;
+    --color-primary-2: #B0EA7D;
+    --color-primary-3: #75BF34;
+    --color-primary-4: #579D19 ;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+h2 {
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+#centertext {
+    max-width: min(1024px,90vw);
+    text-align: center;
+    margin: auto;
+}
+
+html {
+    background-color: var(--color-primary-0);
+    color: #000;
+    scroll-behavior: smooth;
+}

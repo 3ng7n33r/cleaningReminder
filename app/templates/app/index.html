@@ -1,0 +1,25 @@
+{% load static %}
+
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Cleaning Reminder</title>
+    <meta name="description" content="Cleaning Reminder">
+    <meta name="author" content="MB">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'app/style.css' %}">
+
+</head>
+
+<body>
+    <div id="centertext">
+        <h1>{{ string }}</h1>
+        <form action="/shuffle">
+            <input type="submit" value="Shuffle" />
+        </form>
+    </div>
+</body>
+</html>
